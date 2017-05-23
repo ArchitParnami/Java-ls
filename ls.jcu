@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<workspace_user>
+	<active_project>
+		<label>ls</label>
+	</active_project>
+	<projects>
+		<project>
+			<label>ls</label>
+			<showfiles>false</showfiles>
+			<folderitem>
+				<path>Exceptions</path>
+			</folderitem>
+			<folderitem>
+				<path>test</path>
+			</folderitem>
+			<fileitem>
+				<path>Jls.java</path>
+				<collapsedfolds>0</collapsedfolds>
+			</fileitem>
+		</project>
+	</projects>
+	<open_files>
+		<docitem>
+			<path>Jls.java</path>
+			<source>true</source>
+			<index>0</index>
+			<active>false</active>
+		</docitem>
+		<docitem>
+			<path>ls.java</path>
+			<source>true</source>
+			<index>1</index>
+			<active>true</active>
+		</docitem>
+	</open_files>
+</workspace_user>

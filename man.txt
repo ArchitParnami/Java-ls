@@ -1,0 +1,42 @@
+ ls [--man] [options] [extensions] [path]
+
+--man : will print the help manual 
+
+options :
+	-a list all files including the hidden ones
+	-d list only directories
+	-f list only files
+	-l long listing -- list file permissions,size & time of last modification
+	-n list files with numbering
+	-R recursive listing i.e list the contents of subdirectories
+	-r list readable files
+	-w list writable files
+	-x list executable files
+	-s list files and their size
+	-t list files with time of last modification
+ 	
+ 	Note : we can combine options 
+	            eg ls -a -f -r	 	
+
+extension: 	
+	  list the files with the specified extension
+	  eg .html,.exe,.txt
+
+	  Note :  we can specify more than one extension
+	  eg: ls -a .html .exe .txt
+
+
+path :
+	1. Specify the path of the directory whose contents are to be listed or specify the path to filename
+	2. If no path is specified, then current directory is used by default
+	3. Path can be specified in either windows or linux format.
+	    eg : ls .html /Media/Documents
+			or
+	           ls .html E:\Media\Documents
+	          
+	
+example : ls -a -r .html .exe C:\Users\Archit\Documents
+      	 This will list all the files in the document directory which are readable 
+	 and has extension either .html or .exe
+
+Author : Archit Parnami
